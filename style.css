@@ -1,0 +1,39 @@
+.container {
+    align-items: center;
+    background-color: aqua;
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    height: 20rem;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 11px;
+    max-width: 1000px;
+}
+
+.flexItem {
+    background-color: darkorange;
+    margin-left: 5px;
+    padding: 11px;
+}
+.flexItem:first-child {
+    margin: 0;
+}
+
+.flexItem--4 {
+    flex-basis: 350px;
+}
+
+.flexItem--2 {
+    align-self: stretch;
+}
+
+.flexItem {
+    flex-grow: 1;
+    margin: 5px;
+    padding: 11px;
+}
+
+.flexItem--3 {
+    flex-grow: 5;
+}
